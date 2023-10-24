@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my website</title>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            /* height: 5000px; */
+            /* width: 100%; */
+            margin: 0;
+            padding: 0;
+            
+
+        }
+
+        
+        .main-first{
+            height: 1900px;
+            width: 100%;
+            background: rgb(44, 44, 44);
+        }
+        .my {
+            height: 40px;
+            width: 100%;
+            border: 1px solid rgb(44, 44, 44);
+           
+        }
+        .my li{
+            list-style: none;
+            margin-top: 10px;
+            
+        }
+        .my li a{
+            margin-left: 30px;
+            color: white;
+            text-decoration: none;
+            font-size: 19px;
+           
+
+        }
+        .my li #box3:hover{
+            color: red;
+        }
+        .my li #box1:hover{
+            color: green;
+        }
+        .my li #box4:hover{
+            color: yellow;
+        }
+        .my li #box5:hover{
+            color: rgb(0, 255, 208);
+        }
+        .my li #box2:hover{
+            color: rgb(255, 0, 255);
+        }
+        .heading h1{
+            color: white;
+            margin-top: 130px;
+            margin-left: 520px;
+            font-size: 70px;
+
+        }
+        .pra h1{
+            color: white;
+            margin-top: 60px;
+            margin-left: 300px;
+        }
+        .pragraph{
+            color: white;
+            margin-top: 40px;
+            margin-left: 150px;
+            font-size: 20px;
+        }
+        .pragraph #br{
+            color: white;
+            margin-left: 250px;
+            font-size: 20px;
+            
+        }
+        .music #music{
+            color: white;
+            margin-top: 300px;
+            margin-left: 600px;
+            font-size: 50px;
+
+        }
+        .music #song{
+            color: white;
+            margin-top: 50px;
+            margin-left: 435px;
+            font-size: 39px;
+
+        }
+        .music #p{
+            color: white;
+            margin-top: 50px;
+            margin-left: 130px;
+            font-size: 20px;
+
+        }
+        .music #center{
+            color: white;
+            margin-left: 520px;
+            font-size: 20px;
+
+        }
+        .btn button{
+            margin-top: 100px;
+            margin-left: 570px;
+            height: 50px;
+            width: 160px;
+            background: rgb(195, 0, 0);
+            border: 3px solid red;
+            border-radius: 50px;
+           
+            
+        }
+        .btn button a{
+            text-decoration: none;
+            color: white;
+               
+        }
+        .btn button:hover{
+            background: red;
+        } 
+        .or p{
+            color: white;
+            margin-top: 50px;
+            margin-left: 400px;
+
+        }
+        .img{
+            margin-top: 50px;
+            margin-left: 250px;
+           
+
+        }
+        .main2{
+            height: 1550px;
+            width: 100%;
+            background: white;
+            display: flex;
+        }
+        .tv h1{
+            margin-top: 100px;
+            margin-left: 250px;
+
+
+        }
+        .tv #movie{
+            margin-top: 100px;
+            font-size: 25px;
+
+        }
+        .tv #mo{
+            margin-left: 400px;
+            font-size: 20px;
+        }
+        .bt button{
+            margin-top: 100px;
+            margin-left: 570px;
+            height: 60px;
+            width: 130px;
+            background: rgb(1, 4, 132);
+            border: 3px solid blue;
+            border-radius: 50px;
+           
+            
+        }
+        .bt button a{
+            text-decoration: none;
+            color: white;
+               
+        }
+        .bt button:hover{
+            background: blue;
+        } 
+        .tablate img{
+            margin-left: 80px;
+            width: 1200px;
+            height: 1000px;
+        }
+        .main3{
+            height: 600px;
+            width: 100%;
+            background: rgb(44, 44, 44);
+            display: flex;
+
+            
+        }
+        .main4{
+            height: 600px;
+            width: 100%;
+            background: rgb(249, 246, 246);
+            display: flex;
+
+        }
+        .try h1{
+            color: white;
+            margin-top: 150px;
+            margin-left: 300px;
+
+        }
+        .try2 h2{
+            color: white;
+            margin-top: 50px;
+            /* margin-left: 50px; */
+
+        }
+        .card{ 
+            display: flex;
+           
+            
+        }
+        .giftimg{
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+        .card-gift h1{
+            margin-top: 120px;
+            margin-left: 60px;
+        }
+        .cardp p{
+            margin-top: 60px;
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        .gift #all{
+            margin-top: 40px;
+            margin-left: 50px;
+            font-size: 20px;
+
+        }
+        .gift #re{
+            margin-top: 10px;
+            /* margin-left: 50px; */
+            font-size: 20px;
+        }
+        .hr{
+            width: 520px;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-left: 50px;
+            border-right: none;
+            border-left: none;
+            border-bottom: none;
+        }
+        .main5{
+            height: 250px;
+            width: 100%;
+            background: rgb(36, 36, 36);
+            display: flex;
+            
+            
+
+        }
+        .l-share{
+            display: flex;
+            height: 240px;
+            width: 100%;
+            margin-top: 0px;
+        }
+        .shop h2{
+            color: wheat;
+            margin-top: 20px;
+            margin-left: 140px;
+            font-size: 23px;
+            
+        }
+        .shop #education{
+            color: wheat;
+            margin-top: 20px;
+            margin-left: 100px;
+            font-size: 23px;
+            
+        }
+        .link{
+            /* margin-top: 50px; */
+            height: 180px;
+            width: 230px;
+            border: 0.01px solid rgb(177, 176, 176);
+            border-right: none;
+            border-left: none;
+            border-bottom: none;
+            margin-top: 10px;
+            margin-left: 90px;
+
+        }
+        .link li{
+           
+           
+           
+            list-style: none;
+        }
+        .link a{
+            text-decoration: none;
+            color: white;
+        
+        
+        
+           
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .main6{
+            height: 50px;
+            width: 100%;
+            background: rgb(66, 66, 66);
+            display: flex;
+        }
+        .main6 p{
+            margin-left: 500px;
+            margin-top: 13px;
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="main-first">
+                <div class="my">
+                    <li>
+                        <a id="box1" href="#"><i>myTun</i></a>
+                        <a id="box2" href="#"><i>Overview</i></a>
+                        <a id="box3" href="#"><i>Music</i></a>
+                        <a id="box4" href="#"><i>Video</i></a>
+                        <a id="box5" href="#"><i>Gift Cart</i></a>
+                    </li>
+                </div>
+                <div class="heading">
+                    <h1><i>myTunes</i></h1>
+                </div>
+                <div class="pra">
+                    <h1><i>Your music, movies, and TV shows take center stage.</i></h1>
+                </div>
+                <div class="pragraph">
+                    <p><i>myTunes is the best way to organize and enjoy the
+                            music, movies, and TV shows you already have — and
+                            shop for the ones you want.</i></p>
+                    <p id="br"><i> Enjoy all the
+                            entertainment myTunes has to offer on your Mac and
+                            PC.</i></p>
+                </div>
+                <div class="music">
+                    <h1 id="music"><i>Music</i></h1>
+                    <h1 id="song"><i>45 million songs. Zero ads.</i></h1>
+                    <p id="p"><i>Stream over 45 million songs, ad-free. Or
+                            download
+                            albums and tracks to listen to offline. All the
+                            music in your personal myTunes <br> library — no
+                            matter
+                            where it came from — lives right alongside the
+                            Orange Music catalog. Start your free three-month
+                            trial with no </i></p>
+                    <p id="center"><i> commitment, and cancel anytime.
+                        </i></p>
+                </div>
+                <div class="btn">
+                    <button><a href="#"><i>Start Your Trial Now</i></a></button>
+                </div>
+                <div class="or">
+                    <p><i>Orange Music is available in myTunes, and for iOS and
+                            Android devices.</i></p>
+                </div>
+                
+                
+                <div class="img">
+                    <img src="my my.png" alt="" height="600px" width="800px">
+                </div>
+                
+                
+                
+                
+
+            </div>
+            <div class="main2">
+                <div class="tv">
+                    <h1><i>The movie and TV collection you always wished for.
+                            Granted.</i></h1>
+                            <div class="yellow">
+                             <center>
+                    <p id="movie"> <i>With over 100,000 movies and TV shows to choose from,
+                            there’s always something great to watch on myTunes
+                            and if you watch on Orange TV 4K, you’ ll be able to
+                            enjoy a tremendous selection of your favorite
+                            content in 4K HDR. So get ready to enjoy episodes of
+                            your favorite TV shows or hit movies you’ve been
+                            waiting to see — anytime, anywhere. Just tap to
+                            play, or even download if you’re
+                        </i></p>
+                    </center>
+                    </div>
+                            <p id="mo"><i> going somewhere you
+                            won’t have Wi-Fi.</i></p>
+                            <div class="bt">
+                                <button><a href="#"><i>Read More</i></a></button>
+                            </div>
+                            <div class="tablate">
+                                <img src="tunes.png" alt="">
+                            </div>
+                </div>
+            </div>
+            <div class="main3">
+                <div class="black">
+             <div class="try">
+                    <h1><i>A world of entertainment. Available wherever you are.</i></h1>
+                 </div>
+                    <div class="try2">
+                        <center>
+                        <h2><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veniam nobis, nisi ut expedita,
+                         doloribus reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit
+                          eos tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente recusandae minima quo aperiam quam,
+                            excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!</i></h2>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+             <div class="main4">
+                <div class="card">
+                    <div class="giftimg">
+
+                    <img src="cardsma.png" alt="" height="400px" width="700px">
+                 </div>
+                 <div class="not">
+                    <div class="card-gift">
+                        <h1><i>Gift Cards</i></h1>
+                    </div>
+                    <div class="cardp">
+                        <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque expedita tempore
+                             quasi omnis a aut et totam illo fuga accusamus dolorum vero, ut harum consectetur.
+                              Minima molestias officiis culpa non sed dicta itaque. Et aliquam illo obcaecati
+                               molestias veritatis porro.</i></p>
+                    </div>
+                    <div class="gift">
+                        <p id="all"><i>Already have an Orange MyTunes Music Gift Card?</i></p>
+                       <div class="hr">
+                        <p id="re"><i>Redeem</i></p>
+                    </div> 
+                    </div>
+                </div>
+               
+                </div>
+
+             </div>
+            <div class="main5">
+                <div class="l-share">
+                 <div class="1link">  
+                <div class="shop">
+                    <h2><i>Shop & Learn</i></h2>
+
+                </div>
+                <div class="link">
+                    <li>
+                    <a href="#"><i>Music</i></a> <br> <br>
+                    <a href="#"><i>Movies</i></a> <br> <br>
+                    <a href="#"><i>Shows</i></a> <br> <br>
+                    <a href="#"><i>App</i></a> <br> <br>
+                    <a href="#"><i>Gift Cards</i></a> <br>
+                </li>
+                </div>
+            </div> 
+            <div class="1link">
+                <div class="shop">
+                    <h2><i>Orange Store</i></h2>
+
+                </div>
+                <div class="link">
+                    <li>
+                    <a href="#"><i>Find a Store</i></a> <br> <br>
+                    <a href="#"><i>Today at Orange</i></a> <br> <br>
+                    <a href="#"><i>Orange Camp</i></a> <br> <br>
+                    <a href="#"><i>Financing</i></a> <br> <br>
+                    <a href="#"><i>Order Status</i></a> <br>
+                </li>
+                </div>
+            </div>
+            <div class="1link">
+                <div class="shop">
+                    <h2 id="education"><i>Education & Business</i></h2>
+
+                </div>
+                <div class="link">
+                    <li>
+                    <a href="#"><i>Orange & Education</i></a> <br> <br>
+                    <a href="#"><i>Shop For College</i></a> <br> <br>
+                    <a href="#"><i>Orange & Business</i></a> <br> <br>
+                    <a href="#"><i>Shop For Business</i></a> <br> <br>
+                    <a href="#"><i>Jobs</i></a> <br>
+                </li>
+                </div>
+            </div>
+            <div class="1link">
+                <div class="shop">
+                    <h2><i>About Orange</i></h2>
+
+                </div>
+                <div class="link">
+                    <li>
+                    <a href="#"><i>Newsroom</i></a> <br> <br>
+                    <a href="#"><i>Orange Leadership</i></a> <br> <br>
+                    <a href="#"><i>Inventore</i></a> <br> <br>
+                    <a href="#"><i>Events</i></a> <br> <br>
+                    <a href="#"><i>Contact Orange</i></a> <br>
+                </li>
+                </div>
+            </div>
+            </div>
+
+                
+            </div>
+            <div class="main6">
+                <div class="share">
+                <p><i>Copyright © 2022 Orange my website</i></p>
+            </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
